@@ -1,0 +1,32 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/gamedig": "^5.0.3",
+    "@types/node": "^20.10.4",
+    "@types/pg": "^8.11.10",
+    "chalk": "^4.1.2",
+    "chart.js": "^3.9.1",
+    "chartjs-node-canvas": "^4.1.6",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "gamedig": "^5.1.4",
+    "pg": "^8.13.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
